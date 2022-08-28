@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.dateTime{
+    background-color: #075E54;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #094740;
+    height: fit-content;
+    width: 25%;
+}
+
+@media screen and (max-width:1000px ){
+    .dateTime{
+        width: max-content;
+        margin-right: 10%;
+    }
+}
+
+
+
+.card{
+    margin: 16px 0 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 10px;
+}
+.addBtn {
+    border: 2px solid #075E54;
+    background-color: #04897a;
+    border-radius: 0.9em;
+    padding: 0.6em 0.9em 0.6em 0.7em;
+    transition: all ease-in-out 0.2s;
+    font-size: 15px;
+}
+   
+.addBtn span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+}
+   
+.addBtn:hover {
+    background-color: #08b39f;
+}
+
+
+
+.btnAction > .checkBtn{
+    margin-top: 25px;
+    width: 35px;
+    height: 35px;
+    color: blue;
+    background: url('assets/check-circle.svg');
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+
+}
+
+.btnAction > .checkBtn:hover{
+    background: url('assets/check-circle-fill.svg');
+    background-size: contain;
+    transition: 0.3s;
+}
+
+.btnAction > .Xbtn{
+    margin-top: 25px;
+    width: 35px;
+    height: 35px;
+    background: url('assets/x-square.svg');
+    background-size: contain;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.btnAction > .Xbtn:hover{
+    background: url('assets/x-square-fill.svg');
+    background-size: contain;
+    transition: 0.3s;
+}
+
+.btnAction > .trashBtn{
+    margin-top: 25px;
+    width: 33px;
+    height: 33px;
+    background: url('assets/trash3.svg');
+    background-size: contain;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.btnAction > .trashBtn:hover{
+    background: url('assets/trash3-fill.svg');
+    background-size: contain;
+    transition: 0.3s;
+}
+
+.btnAction > .undoBtn{
+    margin-top: 25px;
+    width: 35px;
+    height: 35px;
+    fill: #a733ff;
+    background: url('assets/undo.svg');
+    background-size: contain;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.btnAction > .undoBtn:hover{
+    background: url('assets/undo.svg');
+    background-size: contain;
+}
+
+.alert {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #14af03;
+    color: white;
+}
+
+.searchBar{
+    width: 50%;
+}
+
+.footer{
+    background-color: #04897a;
+    height: 36px;
+    width: 100%;
+    color: #fff;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.aboutApp{
+    color: #fff;
+}
+.aboutApp:hover{
+    color: #fff;
+}
+
+.taskList{
+    background-color: rgb(247, 247, 247);
+}
+
+.taskObject{
+    background-color: rgb(255, 255, 255);
+}
+
